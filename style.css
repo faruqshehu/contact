@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+main{
+    border-radius: 15px;
+    width: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+}
+.Name{
+    display: flex;
+    /* border-radius: 15px; */
+    gap: 20px;
+}
+
+main p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: serif;
+    color: gray;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+.email-input{
+    width: 450px;
+    border-radius: 15px;
+
+}
+.radio{
+    margin-top: 20px;
+    /* font-weight: bold; */
+}
+.radio-option{
+    display: flex;
+    gap: 20px;
+    
+ 
+}
+
+.radio-label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: solid;
+
+}
+.radio-input{
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    background-color: blue;
+}
+
+
+.consent p{
+    margin-top: 0px;
+
+}
+
+.consent{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.submit{
+    border-width:   450PX;
+    background-color: rgb(2, 71, 2);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    text-emphasis-color: white;
+
+}
+.button{
+    background-color: rgb(2, 71, 2);;
+    border: none;
+    color: white;
+    font-size: large;
+}

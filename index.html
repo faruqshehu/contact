@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <h2>Contact Us</h2>
+
+        <section class="Name">
+          <div>
+            <p>First Name &ast;</p>
+            <input type="text" name="First Name " />
+          </div>
+          <div>
+            <p>Last Name &ast;</p>
+            <input type="text" name="First Name " />
+          </div>
+        </section>
+
+        <section class="email">
+          <div>
+            <p>Email Address &ast;</p>
+            <input class="email-input" type="email" />
+          </div>
+        </section>
+
+        <section>
+          <div class="radio">
+            <p>Query Type &ast;</p>
+            <div class="radio-option">
+              <label class="radio-label">
+                <input class="radio-input" type="radio" name="query-type" />
+                General Enquiry
+              </label>
+              <label class="radio-label">
+                <input class="radio-input" type="radio" name="query-type" />
+                Support Request
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <p>Message &ast;</p>
+            <textarea name="Message" id="" rows="5" cols="60"></textarea>
+          </div>
+
+          <div class="consent">
+            <input type="checkbox" />
+            <p>i consent to being contacted by the team &ast;</p>
+          </div>
+        </section>
+
+        <section class="submit">
+          <button class="button" for="submit">submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
